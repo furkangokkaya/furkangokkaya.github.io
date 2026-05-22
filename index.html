@@ -14,9 +14,10 @@
     <title>Furkan Gökkaya | İlköğretim Matematik Öğretmeni</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <script type="module" crossorigin src="/assets/BW_xktVK.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/Dz49fsxd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script type="module" crossorigin src="/assets/CC7473Hc.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/DKYbso7L.css">
 </head>
 <body>
     <div id="particles-bg"></div>
@@ -24,7 +25,7 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="logo">
-                <span class="logo-text">∑ Furkan Gökkaya</span>
+                <span class="logo-text">∑ <span data-bilgi="ad_soyad">Furkan Gökkaya</span></span>
             </div>
             <div class="nav-links">
                 <a href="#home" class="nav-link">Ana Sayfa</a>
@@ -50,11 +51,15 @@
                     <span>π</span><span>∫</span><span>√</span><span>∑</span><span>∞</span>
                 </div>
                 <h1 class="hero-title">
-                    <span class="gradient-text">FURKAN GÖKKAYA</span>
+                    <span class="gradient-text" data-bilgi="ad_soyad_upper">FURKAN GÖKKAYA</span>
                 </h1>
-                <p class="hero-subtitle">İlköğretim Matematik Öğretmeni</p>
+                <p class="hero-subtitle" data-bilgi="unvan">İlköğretim Matematik Öğretmeni</p>
+                <div class="hero-badges">
+                    <span class="hero-badge"><i class="fas fa-chalkboard-teacher"></i> <span data-bilgi="mevcut_calisma_yeri">Bitlis · Ahlat Yıldızlar Akademisi Dershanesi</span></span>
+                    <span class="hero-badge"><i class="fas fa-university"></i> <span data-bilgi="mezuniyet_okulu">Atatürk Üniversitesi · Erzurum</span></span>
+                </div>
                 <div class="hero-description">
-                    <p>Canlı online matematik dersleri ile başarıya giden yol</p>
+                    <p data-bilgi="hero_baslik">Canlı online matematik dersleri ile başarıya giden yol</p>
                 </div>
                 <div class="hero-buttons">
                     <button class="btn btn-primary" id="open-telegram-popup">
@@ -70,23 +75,51 @@
     <section class="about" id="about">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">Hakkımda</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="50">
+                Şu an <strong data-bilgi="mevcut_calisma_yeri_kisa">Ahlat Yıldızlar Akademisi</strong> bünyesinde matematik öğretmenliği yapıyorum.
+            </p>
             <div class="about-grid">
                 <div class="about-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <h3>Eğitim & Deneyim</h3>
-                    <p>İlköğretim Matematik Öğretmenliği lisans mezunu. Yıllardır 5–8. sınıf öğrencilerine matematik öğretiyor, LGS hazırlık desteği veriyorum.</p>
+                    <h3>Eğitim</h3>
+                    <p>
+                        <strong data-bilgi="mezuniyet_okulu">Atatürk Üniversitesi · Erzurum</strong>
+                        <span data-bilgi="mezuniyet_bolumu_label"> — İlköğretim Matematik Öğretmenliği</span>
+                        bölümü mezunuyum. Eğitim hayatım boyunca matematiğin günlük yaşamla bağını öğrencilere kavratmayı hedefledim.
+                    </p>
                 </div>
                 <div class="about-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card-icon"><i class="fas fa-laptop"></i></div>
-                    <h3>Online Yöntem</h3>
-                    <p>İnteraktif beyaz tahta, canlı problem çözümü ve anında geri bildirim. Her ders kayıt altına alınır, tekrar izleyebilirsiniz.</p>
+                    <div class="card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Mevcut Görev</h3>
+                    <p>
+                        Aktif olarak <strong data-bilgi="mevcut_calisma_yeri">Bitlis · Ahlat Yıldızlar Akademisi Dershanesi</strong> bünyesinde 5–8. sınıf matematik dersleri veriyor, LGS hazırlık öğrencilerini sınava hazırlıyorum.
+                    </p>
                 </div>
                 <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon"><i class="fas fa-laptop"></i></div>
+                    <h3>Online Yöntem</h3>
+                    <p>İnteraktif dijital tahta, canlı problem çözümü ve anında geri bildirim. Her ders kayıt altına alınır, öğrenci dilediği zaman tekrar izleyebilir.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="400">
                     <div class="card-icon"><i class="fas fa-heart"></i></div>
                     <h3>Yaklaşımım</h3>
-                    <p>Matematiği ezbersiz, mantığını kavratarak öğretirim. Hedef: korkulan bir ders olmaktan çıkıp sevilen bir alana dönüşmesi.</p>
+                    <p>Matematiği ezbersiz, mantığını kavratarak öğretirim. Hedef: matematiğin korkulan bir ders olmaktan çıkıp sevilen bir alana dönüşmesi.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="quote" id="quote">
+        <div class="container">
+            <div class="quote-stars" aria-hidden="true">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <blockquote class="quote-text" data-aos="fade-up">
+                <i class="fas fa-quote-left quote-icon-left"></i>
+                <span data-bilgi="ozlu_soz">İdealler yıldızlar gibidir. Onlara belki ulaşamazsınız ama bakarak yönünüzü tayin edebilirsiniz…</span>
+                <i class="fas fa-quote-right quote-icon-right"></i>
+            </blockquote>
+            <p class="quote-author" data-aos="fade-up" data-aos-delay="100" data-bilgi="ozlu_soz_yazar">— Carl Schurz</p>
         </div>
     </section>
 
@@ -94,22 +127,22 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="stat-num" data-count="8">0</div>
+                    <div class="stat-num" data-count="8" data-stat="yil_deneyim">0</div>
                     <div class="stat-suffix">+</div>
                     <div class="stat-label">Yıl Öğretmenlik Deneyimi</div>
                 </div>
                 <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="stat-num" data-count="500">0</div>
+                    <div class="stat-num" data-count="500" data-stat="ders_saati">0</div>
                     <div class="stat-suffix">+</div>
                     <div class="stat-label">Birebir Ders Saati</div>
                 </div>
                 <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="stat-num" data-count="120">0</div>
+                    <div class="stat-num" data-count="120" data-stat="ogrenci_sayisi">0</div>
                     <div class="stat-suffix">+</div>
                     <div class="stat-label">Mutlu Öğrenci</div>
                 </div>
                 <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="stat-num" data-count="98">0</div>
+                    <div class="stat-num" data-count="98" data-stat="memnuniyet_yuzdesi">0</div>
                     <div class="stat-suffix">%</div>
                     <div class="stat-label">Veli Memnuniyeti</div>
                 </div>
@@ -385,12 +418,12 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Furkan Gökkaya. Tüm hakları saklıdır.</p>
-            <p class="footer-tagline">《 Matematik, evrenin dilidir 》</p>
+            <p>&copy; 2026 <span data-bilgi="ad_soyad">Furkan Gökkaya</span>. Tüm hakları saklıdır.</p>
+            <p class="footer-tagline" data-bilgi="footer_slogan">《 Matematik, evrenin dilidir 》</p>
         </div>
     </footer>
 
-    <a href="https://t.me/FurkanMatematik" target="_blank" rel="noopener" class="floating-tg" aria-label="Telegram'dan ulaş">
+    <a href="https://t.me/FurkanMatematik" target="_blank" rel="noopener" class="floating-tg" aria-label="Telegram'dan ulaş" data-telegram-link>
         <i class="fab fa-telegram"></i>
         <span class="floating-tg-label">Telegram</span>
     </a>
@@ -404,10 +437,10 @@
             </div>
             <h2>Canlı Derse Katıl</h2>
             <p>Telegram üzerinden anında iletişime geçin. Ders programı, ücretler ve canlı yayın bağlantısı için mesaj atın.</p>
-            <a href="https://t.me/FurkanMatematik" target="_blank" rel="noopener" class="popup-btn">
+            <a href="https://t.me/FurkanMatematik" target="_blank" rel="noopener" class="popup-btn" data-telegram-link>
                 <i class="fab fa-telegram"></i> Telegram'a Git
             </a>
-            <p class="popup-hint">@FurkanMatematik</p>
+            <p class="popup-hint" data-telegram-username>@FurkanMatematik</p>
         </div>
     </div>
 

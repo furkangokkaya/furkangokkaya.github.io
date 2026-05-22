@@ -117,7 +117,26 @@ git push -u origin main
 
 ---
 
-## 5) İçerik Güncelleme
+## 5) Hızlı İçerik Güncelleme — `bilgilerim.json` (BUILD YOK!)
+
+**En önemli dosya: `bilgilerim.json`** — Kök dizinde, GitHub web arayüzünden doğrudan düzenleyebilirsin. Build almaya gerek **YOK**, sadece kaydet ve push et.
+
+İçinde olanlar:
+- `ad_soyad` · `unvan` · `telegram_kullanici_adi`
+- `mevcut_calisma_yeri` · `mezuniyet_okulu` · `mezuniyet_bolumu`
+- `ozlu_soz` · `ozlu_soz_yazar`
+- `istatistikler` (deneyim yılı, ders saati, öğrenci sayısı, memnuniyet yüzdesi)
+- `hero_baslik` · `footer_slogan`
+
+GitHub'da düzenleme:
+1. `https://github.com/furkangokkaya/furkangokkaya.github.io` reposuna gir.
+2. `bilgilerim.json` dosyasına tıkla → kalem (✏️) ikonu ile aç.
+3. Değiştir, en altta "Commit changes" → kaydet.
+4. 1 dakika içinde site güncellenir. Tarayıcı önbelleğini temizle (Ctrl+F5).
+
+---
+
+## 6) Tasarım / Yapısal Güncelleme (kod değişikliği)
 
 **ÖNEMLİ**: Kaynak HTML artık `src/index.html` (kök `index.html` build çıktısıdır, manuel değiştirme!).
 

@@ -1,0 +1,27 @@
+{
+  "_aciklama": "Bu dosyayi GitHub web sitesinden duzenleyip kaydedebilirsin. Site otomatik olarak yeni icerigi cekecek. Build almaya gerek YOKTUR.",
+
+  "ad_soyad": "Furkan Gökkaya",
+  "unvan": "İlköğretim Matematik Öğretmeni",
+  "telegram_kullanici_adi": "FurkanMatematik",
+
+  "mevcut_calisma_yeri": "Bitlis · Ahlat Yıldızlar Akademisi Dershanesi",
+  "mevcut_calisma_yeri_kisa": "Ahlat Yıldızlar Akademisi",
+  "mezuniyet_okulu": "Atatürk Üniversitesi · Erzurum",
+  "mezuniyet_bolumu": "İlköğretim Matematik Öğretmenliği",
+
+  "ozlu_soz": "İdealler yıldızlar gibidir. Onlara belki ulaşamazsınız ama bakarak yönünüzü tayin edebilirsiniz…",
+  "ozlu_soz_yazar": "— Carl Schurz",
+
+  "hero_baslik": "Canlı online matematik dersleri ile başarıya giden yol",
+  "hero_alt": "5. sınıftan LGS'ye, matematiğin korkulan değil sevilen bir alan olduğunu birlikte keşfedelim",
+
+  "footer_slogan": "《 Matematik, evrenin dilidir 》",
+
+  "istatistikler": {
+    "yil_deneyim": 8,
+    "ders_saati": 500,
+    "ogrenci_sayisi": 120,
+    "memnuniyet_yuzdesi": 98
+  }
+}
