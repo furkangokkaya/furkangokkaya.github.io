@@ -119,14 +119,18 @@ git push -u origin main
 
 ## 5) İçerik Güncelleme
 
-- **Metinler**: `index.html` içindeki bölümleri düzenle.
-- **Telegram username**: `index.html` + `src/main.js` içinde değiştir.
+**ÖNEMLİ**: Kaynak HTML artık `src/index.html` (kök `index.html` build çıktısıdır, manuel değiştirme!).
+
+- **Metinler / yeni bölümler**: `src/index.html` düzenle.
+- **Telegram username**: `src/index.html` içinde değiştir.
 - **Renkler**: `src/style.css` üstündeki `:root` değişkenlerini değiştir.
+- **JS davranışları**: `src/main.js`.
 
 Her güncelleme sonrası tekrarla:
 ```powershell
 npm run build
 Copy-Item -Path dist\index.html -Destination . -Force
+Remove-Item assets\* -Force
 Copy-Item -Path dist\assets\* -Destination assets\ -Force
 git add -A
 git commit -m "Güncelleme"
