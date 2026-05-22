@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.*
+
+# Source files (PRIVATE)
+src/
+
+# Config files (PRIVATE)
+vite.config.js
+package.json
+
+# Build output (only root index.html + assets/ are served)
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
