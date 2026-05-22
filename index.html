@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <script type="module" crossorigin src="/assets/CC7473Hc.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/DKYbso7L.css">
+  <script type="module" crossorigin src="/assets/DZoVzovS.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/C4SvCReM.css">
 </head>
 <body>
     <div id="particles-bg"></div>
@@ -44,7 +44,7 @@
     </nav>
 
     <section class="hero" id="home">
-        <canvas id="three-canvas"></canvas>
+        <div class="starfield" aria-hidden="true"></div>
         <div class="container hero-inner">
             <div class="hero-content" data-aos="fade-up">
                 <div class="math-symbols">
@@ -66,6 +66,18 @@
                         <i class="fab fa-telegram"></i> Canlı Derse Katıl
                     </button>
                     <a href="#lessons" class="btn btn-secondary">Dersleri Gör</a>
+                </div>
+                <div class="social-bar" id="social-bar">
+                    <a href="#" target="_blank" rel="noopener" class="social-link" data-social="telegram" aria-label="Telegram" hidden><i class="fab fa-telegram"></i></a>
+                    <a href="#" target="_blank" rel="noopener" class="social-link" data-social="whatsapp" aria-label="WhatsApp" hidden><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank" rel="noopener" class="social-link" data-social="instagram" aria-label="Instagram" hidden><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" rel="noopener" class="social-link" data-social="youtube" aria-label="YouTube" hidden><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank" rel="noopener" class="social-link" data-social="tiktok" aria-label="TikTok" hidden><i class="fab fa-tiktok"></i></a>
+                    <a href="#" target="_blank" rel="noopener" class="social-link" data-social="twitter" aria-label="Twitter / X" hidden><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" target="_blank" rel="noopener" class="social-link" data-social="facebook" aria-label="Facebook" hidden><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank" rel="noopener" class="social-link" data-social="linkedin" aria-label="LinkedIn" hidden><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link" data-social="email" aria-label="E-posta" hidden><i class="fas fa-envelope"></i></a>
+                    <a href="#" class="social-link" data-social="telefon" aria-label="Telefon" hidden><i class="fas fa-phone"></i></a>
                 </div>
             </div>
         </div>
@@ -413,6 +425,39 @@
                 </button>
                 <p class="cta-hint">Genellikle 1 saat içinde dönüş yapılır</p>
             </div>
+
+            <div class="contact-info-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-info-card" data-bilgi-card="sehir" hidden>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <div class="contact-info-label">Konum</div>
+                        <div class="contact-info-value" data-bilgi="sehir"></div>
+                    </div>
+                </div>
+                <div class="contact-info-card" data-bilgi-card="calisma_saatleri" hidden>
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <div class="contact-info-label">Çalışma Saatleri</div>
+                        <div class="contact-info-value" data-bilgi="calisma_saatleri"></div>
+                    </div>
+                </div>
+                <div class="contact-info-card" data-bilgi-card="email" hidden>
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <div class="contact-info-label">E-posta</div>
+                        <a class="contact-info-value" data-bilgi-link="email" href="#"></a>
+                    </div>
+                </div>
+                <div class="contact-info-card" data-bilgi-card="telefon" hidden>
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <div class="contact-info-label">Telefon</div>
+                        <a class="contact-info-value" data-bilgi-link="telefon" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-socials" id="contact-socials" data-aos="fade-up" data-aos-delay="300"></div>
         </div>
     </section>
 
@@ -444,7 +489,5 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 </html>
